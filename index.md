@@ -12,7 +12,7 @@ hero:
       link: /getting-started
     - theme: alt
       text: Discord
-      link: https://furi.moe/chompubot
+      link: https://discord.gg/2bhtBJQ4Xz
 
 features:
   - title: Version
