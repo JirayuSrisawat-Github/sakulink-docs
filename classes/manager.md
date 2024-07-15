@@ -10,16 +10,18 @@ new Manager(options: ManagerOptions)
 
 ## Options
 
-| Options                 | Type       | Description                                   |
-| ----------------------- | :--------- | --------------------------------------------- |
-| `autoPlay`              | `boolean`  | Indicates if songs should automatically play. |
-| `cliendId`              | `string`   | The ID of the client.                         |
-| `cliendName`            | `string`   | The name of the client.                       |
-| `nodes`                 | `array`    | The list of NodeOptions.                      |
-| `plugins`               | `array`    | The list of plugins.                          |
-| `shards`                | `number`   | The number of shard count.                    |
-| `trackPartial`          | `string[]` | The list of partial tracks.                   |
-| `defaultSearchPlatform` | `string`   | The default search platform.                  |
+| Options                 | Type       | Description                                    |
+| ----------------------- | :--------- | ---------------------------------------------- |
+| `autoPlay`              | `boolean`  | Indicates if songs should automatically play.  |
+| `autoResume`            | `boolean`  | Automatically resume players.                  |
+| `autoMove`              | `boolean`  | Move players to other node if node going down. |
+| `cliendId`              | `string`   | The ID of the client.                          |
+| `cliendName`            | `string`   | The name of the client.                        |
+| `nodes`                 | `array`    | The list of NodeOptions.                       |
+| `plugins`               | `array`    | The list of plugins.                           |
+| `shards`                | `number`   | The number of shard count.                     |
+| `trackPartial`          | `string[]` | The list of partial tracks.                    |
+| `defaultSearchPlatform` | `string`   | The default search platform.                   |
 
 ## Methods
 
@@ -91,9 +93,9 @@ Function to send data to the websocket.
 
 > Emitted when a Node disconnects.
 >
-> | Parameter | Type                              |
-> | --------- | :-------------------------------- |
-> | node      | [Node](../classes/node)           |
+> | Parameter | Type                                |
+> | --------- | :---------------------------------- |
+> | node      | [Node](../classes/node)             |
 > | reason    | `{ code: number , reason: string }` |
 
 #### • nodeError

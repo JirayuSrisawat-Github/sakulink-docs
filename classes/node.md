@@ -16,8 +16,6 @@ new Magmastream.Node(options: NodeOptions)
 | `port`          | `number`  | The port for the node.                                                      |
 | `retryAmount`   | `number`  | How many tries connect to the node if connection failed.                    |
 | `retryDelay`    | `number`  | Timeout to retry connecting to the node if connection failed.               |
-| `resumeStatus`  | `boolean` | Whether to resume the previous session. If false music will halt instantly. |
-| `resumeTimeout` | `number`  | How load to wait before resuming.                                           |
 | `secure`        | `boolean` | Whether the host uses SSL.                                                  |
 | `search`        | `boolean` | Whether to enable the search functionality.                                 |
 | `playable`      | `boolean` | Whether to enable the playable check.                                       |
