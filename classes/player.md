@@ -41,6 +41,7 @@ new Player(options: PlayerOptions)
 | [voiceChannel](#voicechannel)           | [setTrackRepeat](#settrackrepeat)             |
 | [voiceState](#voicestate)               | [setVoiceChannel](#setvoicechannel)           |
 | [volume](#volume)                       | [setVolume](#setvolume)                       |
+| [isAutoplay](#isautoplay)               | [setIsAutoplay](#setisautoplay)               |
 |                                         | [moveNode](#moveNode)                         |
 |                                         | [stop](#stop)                                 |
 
@@ -187,6 +188,14 @@ new Player(options: PlayerOptions)
 > | Type   |
 > | ------ |
 > | number |
+
+#### • isAutoplay
+
+> Whether the player is in autoplay mode.
+>
+> | Type    |
+> | ------- |
+> | boolean |
 
 ### Methods
 
@@ -388,6 +397,16 @@ new Player(options: PlayerOptions)
 > | Parameter | Type   |
 > | --------- | ------ |
 > | volume    | number |
+
+#### • setIsAutoplay()
+
+> Sets the autoplay state.
+>
+> Returns: `this`
+>
+> | Parameter | Type    |
+> | --------- | ------- |
+> | state     | boolean |
 
 #### • stop()
 
