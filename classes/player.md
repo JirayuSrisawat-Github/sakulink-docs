@@ -41,7 +41,7 @@ new Player(options: PlayerOptions)
 | [voiceChannel](#voicechannel)           | [setTrackRepeat](#settrackrepeat)             |
 | [voiceState](#voicestate)               | [setVoiceChannel](#setvoicechannel)           |
 | [volume](#volume)                       | [setVolume](#setvolume)                       |
-| [isAutoplay](#isautoplay)               | [setIsAutoplay](#setisautoplay)               |
+| [isAutoplay](#isautoplay)               | [setAutoplay](#setautoplay)               |
 |                                         | [moveNode](#moveNode)                         |
 |                                         | [stop](#stop)                                 |
 
