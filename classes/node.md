@@ -22,13 +22,13 @@ new Magmastream.Node(options: NodeOptions)
 
 ## Overview
 
-| Properties                     | Methods                |
-| ------------------------------ | :--------------------- |
-| [`manager`](#-manager)         | [`connect`](#-connect) |
-| [`options`](#-options)         | [`destroy`](#-destroy) |
-| [`socket`](#-socket)           |                        |
-| [`stats`](#-stats)             |                        |
-| [`connected`](#-get-connected) |                        |
+| Properties                      | Methods                 |
+| ------------------------------- | :---------------------- |
+| [`manager`](#•-manager)         | [`connect`](#•-connect) |
+| [`options`](#•-options)         | [`destroy`](#•-destroy) |
+| [`socket`](#•-socket)           |                         |
+| [`stats`](#•-stats)             |                         |
+| [`connected`](#•-get-connected) |                         |
 
 ### Properties
 
