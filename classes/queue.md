@@ -4,11 +4,11 @@
 
 | Properties              | Methods             |
 | ----------------------- | ------------------- |
-| [current](#current)     | [add](#add)         |
-| [duration](#duration)   | [clear](#clear)     |
-| [size](#size)           | [remove](#remove)   |
-| [previous](#previous)   | [shuffle](#shuffle) |
-| [totalSize](#totalSize) |                     |
+| [current](#-current)     | [add](#-add)         |
+| [duration](#-duration)   | [clear](#-clear)     |
+| [size](#-size)           | [remove](#-remove)   |
+| [previous](#-previous)   | [shuffle](#-shuffle) |
+| [totalSize](#-totalSize) |                     |
 
 ## Properties
 

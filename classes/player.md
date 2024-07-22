@@ -21,29 +21,29 @@ new Player(options: PlayerOptions)
 
 ## Overview
 
-| Properties                              | Methods                                       |
-| --------------------------------------- | :-------------------------------------------- |
-| [dynamicRepeat](#dynamicrepeat)         | [connect](#connect)                           |
-| [filters](#filters)                     | [destroy](#destroy)                           |
-| [guild](#guild)                         | [disconnect](#disconnect)                     |
-| [manager](#manager)                     | [get](#get)                                   |
-| [node](#node)                           | [pause](#pause)                               |
-| [nowPlayingMessage](#nowplayingmessage) | [previous](#previous)                         |
-| [options](#options)                     | [play](#play)                                 |
-| [paused](#paused)                       | [restart](#restart)                           |
-| [playing](#playing)                     | [search](#search)                             |
-| [position](#position)                   | [seek](#seek)                                 |
-| [queue](#queue)                         | [set](#set)                                   |
-| [queueRepeat](#queuerepeat)             | [setDynamicRepeat](#setdynamicrepeat)         |
-| [state](#state)                         | [setNowPlayingMessage](#setnowplayingmessage) |
-| [textChannel](#textchannel)             | [setQueueRepeat](#setqueuerepeat)             |
-| [trackRepeat](#trackrepeat)             | [setTextChannel](#settextchannel)             |
-| [voiceChannel](#voicechannel)           | [setTrackRepeat](#settrackrepeat)             |
-| [voiceState](#voicestate)               | [setVoiceChannel](#setvoicechannel)           |
-| [volume](#volume)                       | [setVolume](#setvolume)                       |
-| [isAutoplay](#isautoplay)               | [setIsAutoplay](#setisautoplay)               |
-|                                         | [moveNode](#moveNode)                         |
-|                                         | [stop](#stop)                                 |
+| Properties                               | Methods                                        |
+| ---------------------------------------- | :--------------------------------------------- |
+| [dynamicRepeat](#-dynamicrepeat)         | [connect](#-connect)                           |
+| [filters](#-filters)                     | [destroy](#-destroy)                           |
+| [guild](#-guild)                         | [disconnect](#-disconnect)                     |
+| [manager](#-manager)                     | [get](#-get)                                   |
+| [node](#-node)                           | [pause](#-pause)                               |
+| [nowPlayingMessage](#-nowplayingmessage) | [previous](#-previous)                         |
+| [options](#-options)                     | [play](#-play)                                 |
+| [paused](#-paused)                       | [restart](#-restart)                           |
+| [playing](#-playing)                     | [search](#-search)                             |
+| [position](#-position)                   | [seek](-#seek)                                 |
+| [queue](#-queue)                         | [set](#set)                                    |
+| [queueRepeat](#-queuerepeat)             | [setDynamicRepeat](#-setdynamicrepeat)         |
+| [state](#-state)                         | [setNowPlayingMessage](#-setnowplayingmessage) |
+| [textChannel](#-textchannel)             | [setQueueRepeat](#-setqueuerepeat)             |
+| [trackRepeat](#-trackrepeat)             | [setTextChannel](#-settextchannel)             |
+| [voiceChannel](#-voicechannel)           | [setTrackRepeat](#-settrackrepeat)             |
+| [voiceState](#-voicestate)               | [setVoiceChannel](#-setvoicechannel)           |
+| [volume](#-volume)                       | [setVolume](#-setvolume)                       |
+| [isAutoplay](#-isautoplay)               | [setIsAutoplay](#-setisautoplay)               |
+|                                          | [moveNode](#-moveNode)                         |
+|                                          | [stop](#-stop)                                 |
 
 ### Properties
 

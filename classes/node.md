@@ -8,27 +8,27 @@ new Magmastream.Node(options: NodeOptions)
 
 ## Properties
 
-| Options         | Type      | Description                                                                 |
-| --------------- | :-------- | --------------------------------------------------------------------------- |
-| `host`          | `string`  | The host for the node.                                                      |
-| `identifier`    | `string`  | The identifier for the node.                                                |
-| `password`      | `string`  | The password for the node.                                                  |
-| `port`          | `number`  | The port for the node.                                                      |
-| `retryAmount`   | `number`  | How many tries connect to the node if connection failed.                    |
-| `retryDelay`    | `number`  | Timeout to retry connecting to the node if connection failed.               |
-| `secure`        | `boolean` | Whether the host uses SSL.                                                  |
-| `search`        | `boolean` | Whether to enable the search functionality.                                 |
-| `playable`      | `boolean` | Whether to enable the playable check.                                       |
+| Options       | Type      | Description                                                   |
+| ------------- | :-------- | ------------------------------------------------------------- |
+| `host`        | `string`  | The host for the node.                                        |
+| `identifier`  | `string`  | The identifier for the node.                                  |
+| `password`    | `string`  | The password for the node.                                    |
+| `port`        | `number`  | The port for the node.                                        |
+| `retryAmount` | `number`  | How many tries connect to the node if connection failed.      |
+| `retryDelay`  | `number`  | Timeout to retry connecting to the node if connection failed. |
+| `secure`      | `boolean` | Whether the host uses SSL.                                    |
+| `search`      | `boolean` | Whether to enable the search functionality.                   |
+| `playable`    | `boolean` | Whether to enable the playable check.                         |
 
 ## Overview
 
-| Properties                    | Methods               |
-| ----------------------------- | :-------------------- |
-| [`manager`](#manager)         | [`connect`](#connect) |
-| [`options`](#options)         | [`destroy`](#destroy) |
-| [`socket`](#socket)           |                       |
-| [`stats`](#stats)             |                       |
-| [`connected`](#get-connected) |                       |
+| Properties                     | Methods                |
+| ------------------------------ | :--------------------- |
+| [`manager`](#-manager)         | [`connect`](#-connect) |
+| [`options`](#-options)         | [`destroy`](#-destroy) |
+| [`socket`](#-socket)           |                        |
+| [`stats`](#-stats)             |                        |
+| [`connected`](#-get-connected) |                        |
 
 ### Properties
 
