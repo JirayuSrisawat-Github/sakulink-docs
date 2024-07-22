@@ -184,7 +184,8 @@ Check out the [example](https://github.com/JirayuSrisawat-Github/sakulink-exampl
 
 ## Used by
 
-| Client  | Creator     | Guilds |
-| ------- | ----------- | ------ |
-| Matsuri | JIRAYU      | 60     |
-| SaLee   | SomboyTiger | 60     |
+| Client  | Creator     |
+| ------- | ----------- |
+| Matsuri | JIRAYU      |
+| SaLee   | SomboyTiger |
+| Yuzu    | Slamy       |

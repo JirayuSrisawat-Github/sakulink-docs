@@ -32,8 +32,8 @@ new Player(options: PlayerOptions)
 | [options](#-options)                     | [play](#-play)                                 |
 | [paused](#-paused)                       | [restart](#-restart)                           |
 | [playing](#-playing)                     | [search](#-search)                             |
-| [position](#-position)                   | [seek](-#seek)                                 |
-| [queue](#-queue)                         | [set](#set)                                    |
+| [position](#-position)                   | [seek](#-seek)                                 |
+| [queue](#-queue)                         | [set](#-set)                                    |
 | [queueRepeat](#-queuerepeat)             | [setDynamicRepeat](#-setdynamicrepeat)         |
 | [state](#-state)                         | [setNowPlayingMessage](#-setnowplayingmessage) |
 | [textChannel](#-textchannel)             | [setQueueRepeat](#-setqueuerepeat)             |
@@ -41,7 +41,7 @@ new Player(options: PlayerOptions)
 | [voiceChannel](#-voicechannel)           | [setTrackRepeat](#-settrackrepeat)             |
 | [voiceState](#-voicestate)               | [setVoiceChannel](#-setvoicechannel)           |
 | [volume](#-volume)                       | [setVolume](#-setvolume)                       |
-| [isAutoplay](#-isautoplay)               | [setAutoplay](#-setautoplay)               |
+| [isAutoplay](#-isautoplay)               | [setAutoplay](#-setautoplay)                   |
 |                                          | [moveNode](#-moveNode)                         |
 |                                          | [stop](#-stop)                                 |
 
