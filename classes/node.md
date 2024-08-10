@@ -18,7 +18,7 @@ new Magmastream.Node(options: NodeOptions)
 | `retryDelay`  | `number`  | Timeout to retry connecting to the node if connection failed. |
 | `secure`      | `boolean` | Whether the host uses SSL.                                    |
 | `search`      | `boolean` | Whether to enable the search functionality.                   |
-| `playable`    | `boolean` | Whether to enable the playable check.                         |
+| `playback`    | `boolean` | Whether to enable the playback.                               |
 
 ## Overview
 
