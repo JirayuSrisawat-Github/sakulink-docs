@@ -45,7 +45,7 @@ const nodes = [
     retryAmount: Infinity,
     retryDelay: 50,
     search: true,
-    playable: true,
+    playback: true,
   }
 ];
 

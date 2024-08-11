@@ -3,7 +3,7 @@
 ### Constructor
 
 ```js
-new Magmastream.Node(options: NodeOptions)
+new Node(options: NodeOptions)
 ```
 
 ## Properties
