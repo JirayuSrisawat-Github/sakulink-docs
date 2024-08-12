@@ -37,13 +37,12 @@ const client = new Client({ intents: 33409 });
 // Define some options for the node
 const nodes = [
   {
-    identifier: "JIRAYU",
+    identifier: "JIRAYU_V4",
     host: "lavalink.jirayu.net",
     password: "youshallnotpass",
-    port: 2353,
+    port: 13592,
     secure: false
-    retryAmount: Infinity,
-    retryDelay: 50,
+    version: "v4",
     search: true,
     playback: true,
   }

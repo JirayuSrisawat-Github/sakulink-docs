@@ -19,6 +19,7 @@ new Node(options: NodeOptions)
 | `secure`      | `boolean` | Whether the host uses SSL.                                    |
 | `search`      | `boolean` | Whether to enable the search functionality.                   |
 | `playback`    | `boolean` | Whether to enable the playback.                               |
+| `version`     | `v4\|v3`  | The version of the node.                                      |
 
 ## Overview
 
