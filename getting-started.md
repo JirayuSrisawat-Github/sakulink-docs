@@ -45,6 +45,16 @@ const nodes = [
     version: "v4",
     search: true,
     playback: true,
+  },
+  {
+    identifier: "JIRAYU_V3",
+    host: "lavalink.jirayu.net",
+    password: "youshallnotpass",
+    port: 2334,
+    secure: false
+    version: "v3",
+    search: true,
+    playback: true,
   }
 ];
 
